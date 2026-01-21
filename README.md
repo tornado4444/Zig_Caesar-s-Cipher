@@ -12,3 +12,4 @@ x = (y - k) mod n
 where x is the plaintext symbol, is the ciphertext symbol, y is the alphabet power (length), and k is the key.
 
 ### Final Result
+![img]()
