@@ -4,4 +4,8 @@ The Caesar cipher is a simple encryption method in which each letter of the orig
 
 ![image](https://github.com/tornado4444/Zig_Caesar-s-Cipher/blob/main/algorithm.jpg)
 
-
+If we associate each character of the alphabet with its serial number (numbering from 0), then encryption and decryption can be expressed by the formulas of modular arithmetic:
+```c
+y = (x+k) mod n
+x = (y - k) mod n
+```
